@@ -29,8 +29,8 @@
         }
     </style>
 </head>
-<body>
-    <div class="bg-[url('c2-assets/stacked-peaks-haikei.svg')] bg-cover bg-center opacity-50 h-screen w-full absolute">
+<body class="bg-gray-100">
+    <div class="md:bg-[url('c2-assets/stacked-peaks-haikei.svg')] bg-cover bg-center opacity-50 h-screen w-full absolute">
         <!-- Content here -->
       </div>
       
@@ -40,25 +40,24 @@
             <div class="flex items-center gap-3">
                 <img class="absolute" src="c2-assets/bg.png" alt="Logo">
                  <div class="flex items-center gap-3">
-                    <!-- <i class="fa-brands fa-redhat text-3xl"></i> -->
                     <h1 class="text-3xl color">Rafi Ahmed</span> </h1>
-                    <img class="w-6" src="c2-assets/37_Logo-removebg-preview.png" alt="">
+                    <img class="w-6 hidden md:block" src="c2-assets/37_Logo-removebg-preview.png" alt="">
                  </div>
             </div>
             <div class="flex items-center">
                 <ul class="hidden lg:flex gap-8 text-lg text-gray-600">
-                    <li><a href="#" class="hover">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Skill</a></li>
                     <li><a href="#">Services</a></li>
                     <li class="mr-10"><a href="#">Contact</a></li>
                 </ul>
-                <button class="border text-gray-500 px-5 py-3 text-lg bg-gray-200 border-transparent  rounded-xl hover:bg-[#f9df8a] hover:text-white duration-300 hover:scale-95">Hire Now</button>
+                <button class="border text-gray-500 px-5 py-3 text-lg bg-gray-200 border-transparent  rounded-xl hover:bg-[#f9df8a] hover:text-white duration-300 hover:scale-95  hidden md:block">Hire Now</button>
                 <i class="fa-solid fa-bars md:hidden text-2xl"></i>
             </div>
         </nav>
 <!-- Banner Start  -->
     <section class="sora-font mt-24">
-            <div class="container mx-auto md:flex items-center justify-around md:px-20">
+            <div class="container mx-auto md:flex items-center justify-around md:px-20 px-4">
                 <div  data-aos="fade-right">
                     <h1 class="text-xl opacity-50">Hello I'm</h1>
                     <h2 class="text-5xl mt-3">Rafi Ahmed</h2>
@@ -76,7 +75,7 @@
                     </div>
         </div>
                 <div  data-aos="fade-left" class="w-full">
-                    <img class="rounded-full" src="c2-assets/img1.png" alt="">
+                    <img class="md:rounded-full rounded-lg mt-5" src="c2-assets/img1.png" alt="">
                 </div>
              </div>
     </section>

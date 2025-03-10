@@ -16,6 +16,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Animation Js  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Cursor Animation Js -->
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <!-- Animation CSS link  -->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
     <!-- Font CSS  -->
      <style>
         *{
@@ -38,7 +42,7 @@
 <!-- Navber Start  -->
         <nav class="container mx-auto sora-font flex justify-between items-center h-24 px-4 lg:px-0 border-4 sm:border-none">
             <div class="flex items-center gap-3">
-                <img class="absolute" src="c2-assets/bg.png" alt="Logo">
+                <img class="hidden md:block absolute" src="c2-assets/bg.png" alt="Logo">
                  <div class="flex items-center gap-3">
                     <h1 class="text-3xl color">Rafi Ahmed</span> </h1>
                     <img class="w-6 hidden md:block" src="c2-assets/37_Logo-removebg-preview.png" alt="">
@@ -64,7 +68,7 @@
                     <p class="text-xl opacity-50 mt-3 text-yellow-500">Web Developer</p>
                     <p class="md:w-3/4 opacity-70 mt-3">Hi, I'm Rafi Ahmed -a passionate Web Developer dedicated to crafting interactive, responsive, and user-friendly websites. I turn ideas into visually appealing designs clean code and creativity. Let's connect and bring your digital vision to life through innovation and precision.</p>
                     <div class="mt-5">
-                        <button class=" color px-5 py-3 text-sm bg-[#F9DF8A] text-black text-opacity-50 duration-300 rounded-full hover:bg-transparent border-2 hover:scale-95"><a href="#" download="https://website-assets.studocu.com/img/document_thumbnails/f713d85cd592b76891b8837a5f55319e/thumb_1200_1553.png">Download CV</a></button>
+                        <button class=" color px-5 py-3 text-sm bg-[#F9DF8A] text-black text-opacity-50 duration-300 rounded-full hover:bg-transparent border-2 hover:border-gray-300 hover:scale-95"><a href="#" download="https://website-assets.studocu.com/img/document_thumbnails/f713d85cd592b76891b8837a5f55319e/thumb_1200_1553.png">Download CV</a></button>
                         <div class="space-x-2 mt-5 ml-3">
                             <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in border border-gray-500 text-gray-500 hover:text-blue-500 rounded-full px-2 py-2 hover:scale-110 duration-300"></i></a>
                             <a href="https://x.com/Rafi_ahmed43" target="_blank"><i class="fa-brands fa-square-twitter border border-gray-500 hover:text-blue-500 text-gray-500 rounded-full px-2 py-2 hover:scale-110 duration-300"></i></a>
@@ -83,5 +87,10 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<script>
+    new kursor({
+        type: 1
+    })
 </script>
 </body>

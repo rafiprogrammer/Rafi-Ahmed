@@ -32,6 +32,8 @@
             color: #F9DF8A;
         }
     </style>
+    <!-- styles  -->
+     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100">
     <div class="md:bg-[url('c2-assets/stacked-peaks-haikei.svg')] bg-cover bg-center opacity-50 h-screen w-full absolute">
@@ -50,22 +52,22 @@
             </div>
             <div class="flex items-center">
                 <ul class="hidden lg:flex gap-8 text-lg text-gray-600">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Skill</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li class="mr-10"><a href="#">Contact</a></li>
+                    <li>Home</li>
+                    <li>Skill</li>
+                    <li>Services</li>
+                    <li class="mr-10">Contact</li>
                 </ul>
                 <button class="border text-gray-500 px-5 py-3 text-lg bg-gray-200 border-transparent  rounded-xl hover:bg-[#f9df8a] hover:text-white duration-300 hover:scale-95  hidden md:block">Hire Now</button>
                 <i class="fa-solid fa-bars md:hidden text-2xl"></i>
             </div>
         </nav>
 <!-- Banner Start  -->
-    <section class="sora-font mt-24">
-            <div class="container mx-auto md:flex items-center justify-around md:px-20 px-4">
+    <section class="sora-font">
+            <div class="container mx-auto md:flex items-center justify-between ">
                 <div  data-aos="fade-right">
                     <h1 class="text-xl opacity-50">Hello I'm</h1>
                     <h2 class="text-5xl mt-3">Rafi Ahmed</h2>
-                    <p class="text-xl opacity-50 mt-3 text-yellow-500">Web Developer</p>
+                    <p class="text-xl opacity-50 mt-3 text-yellow-500"><span id="type-write"></span></p>
                     <p class="md:w-3/4 opacity-70 mt-3">Hi, I'm Rafi Ahmed -a passionate Web Developer dedicated to crafting interactive, responsive, and user-friendly websites. I turn ideas into visually appealing designs clean code and creativity. Let's connect and bring your digital vision to life through innovation and precision.</p>
                     <div class="mt-5">
                         <button class=" color px-5 py-3 text-sm bg-[#F9DF8A] text-black text-opacity-50 duration-300 rounded-full hover:bg-transparent border-2 hover:border-gray-300 hover:scale-95"><a href="#" download="https://website-assets.studocu.com/img/document_thumbnails/f713d85cd592b76891b8837a5f55319e/thumb_1200_1553.png">Download CV</a></button>
@@ -75,22 +77,153 @@
                             <a href="https://m.me/rafidmn?source=qr_link_share" target="_blank"><i class="fa-brands fa-facebook-messenger border hover:text-blue-500 border-gray-500 text-gray-500 rounded-full px-2 py-2 hover:scale-110 duration-300"></i></a>
                             <a  href="https://www.facebook.com/share/1A9yqYrEcp/?mibextid=qi2Omg
                             Sent" target="_blank"><i class="fa-brands fa-facebook-f border border-gray-500 text-gray-500 rounded-full px-2 text-xl hover:text-blue-500 hover:scale-110 duration-300"></i></a>
+                            
                         </div>
                     </div>
         </div>
                 <div  data-aos="fade-left" class="w-full">
-                    <img class="md:rounded-full rounded-lg mt-5" src="c2-assets/img1.png" alt="">
+                    <img class="md:rounded-full w-10/12 rounded-lg mt-20 mb-72" src="c2-assets/img1.png" alt="">
                 </div>
              </div>
     </section>
 </header>
+<main class="container mx-auto">
+    <section class="my-52">
+        <h1 class="text-3xl text-gray-500">What I Do</h1>
+        <!-- Main Container  -->
+        <div class="grid grid-cols-3 gap-4 mt-10">
+
+            <!-- item 1 -->
+            <div class="bg-gray-800 p-10 rounded-lg text-white hover:scale-105 duration-300 hover:bg-gray-700">
+               <div>
+                <i class="fa-solid fa-code text-2xl"></i>
+               </div>
+               <div>
+                <h1 class="text-2xl color mt-1">Web Development</h1>
+                <p class="text-sm mt-4">I build clean, modern, and functional websites using HTML, CSS, Tailwind CSS, and JavaScript. Whether it's a simple landing page or a multi-section website, I focus on writing clean code and ensuring smooth user experience.
+                </p>
+               </div>
+             </div>
+             
+            <!-- item 2 -->
+            <div class="bg-gray-800 p-10 rounded-lg text-white hover:scale-105 duration-300 hover:bg-gray-700">
+               <div>
+                <i class="fa-solid fa-mobile-screen text-2xl"></i>
+               </div>
+               <div>
+                <h1 class="text-2xl color mt-1">Responsive Design</h1>
+                <p class="text-sm mt-4">I make sure your website works perfectly on all devices — mobile, tablet, and desktop. Using flexible layouts and responsive utilities, I ensure that users get a seamless experience, no matter their screen size.
+                </p>
+               </div>
+             </div>
+             
+            <!-- item 3 -->
+            <div class="bg-gray-800 p-10 rounded-lg text-white hover:scale-105 duration-300 hover:bg-gray-700">
+               <div>
+                <i class="fa-solid fa-palette text-2xl text-pink-300"></i>
+               </div>
+               <div>
+                <h1 class="text-2xl color mt-1">UI/UX Implementation</h1>
+                <p class="text-sm mt-4">With an eye for design and detail, I turn Figma or design ideas into real, interactive websites. I focus on color harmony, spacing, typography, and usability to make interfaces not only beautiful but also user-friendly.
+                </p>
+               </div>
+             </div>
+             
+            <!-- item 4-->
+            <div class="bg-gray-800 p-10 rounded-lg text-white hover:scale-105 duration-300 hover:bg-gray-700">
+               <div>
+                <i class="fa-solid fa-globe text-2xl"></i>
+               </div>
+               <div>
+                <h1 class="text-2xl color mt-1">Clean & Semantic Code</h1>
+                <p class="text-sm mt-4">I write code that is not only functional but also readable, reusable, and well-structured. I follow best practices and naming conventions to keep things organized — making future edits or team collaboration easy.
+                </p>
+               </div>
+             </div>
+
+            <!-- item 5 -->
+            <div class="bg-gray-800 p-10 rounded-lg text-white hover:scale-105 duration-300 hover:bg-gray-700">
+               <div>
+                <p class="text-2xl">⚡</p>
+               </div>
+               <div>
+                <h1 class="text-2xl color mt-1">Fast Performance</h1>
+                <p class="text-sm mt-4">A slow website turns users away. I optimize websites for performance by reducing unnecessary code, using best practices, and ensuring quick load times for a better user experience.
+                </p>
+               </div>
+             </div>
+
+              <!-- item 6 -->
+            <div class="bg-gray-800 p-10 rounded-lg text-white hover:scale-105 duration-300 hover:bg-gray-700 ">
+               <div>
+                <i class="fa-solid fa-users text-2xl"></i>
+               </div>
+               <div>
+                <h1 class="text-2xl color mt-1"> Freelance & Collaboration</h1>
+                <p class="text-sm mt-4">I'm open to freelance opportunities and love collaborating with others. If you have an idea or need a website, I'm here to help bring it to life.
+                </p>
+               </div>
+             </div>
+             
+        </div>
+    </section>
+</main>
+<!-- <main>
+       <section class="">
+            <div class="about-box">
+                <h3 class="title">About Me</h3>
+                <p class="description line-height dark3">
+                    I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and 
+                    slick websites that provide real value to the end user. Thousands of clients have procured 
+                    exceptional resulfs while working with me. Delivering work within time and budget which meets 
+                    clients requirements in our mata.
+                </p>
+            </div>
+            <div class="adress-main">
+            <div class="item">
+                <h4 class="item-title dark3">Name:</h4>
+                <h4 class="item-details">Mary Hardy</h4>
+            </div>
+            <div class="item">
+                <h4 class="item-title dark3">Email:</h4>
+                <h4 class="item-details">info@gmail.com</h4>   
+            </div>
+            <div class="item">
+                <h4 class="item-title dark3">Date of Birth:</h4>
+                <h4 class="item-details">11 November 1987</h4>
+            </div>
+            <div class="item">
+                <h4 class="item-title dark3">From:</h4>
+                <h4 class="item-details">Los Angeles, USA</h4>
+            </div>
+        </div>
+        </section>
+</main> -->
+
+
+
+
+                                    <!-- Javascript Code  -->
+
+<!-- Animation  -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
+<!-- Cursor Animation  -->
 <script>
     new kursor({
         type: 1
+    })
+</script>
+<!-- Type Write  -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed ("#type-write",{
+        strings: ["Web Developer", "Programmer", "Web Designer"],
+        typeSpeed : 150,
+        backSpeed : 150,
+        loop: true
     })
 </script>
 </body>
